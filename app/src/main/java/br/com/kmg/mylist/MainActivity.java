@@ -38,7 +38,8 @@ public class MainActivity extends AppCompatActivity {
         contactList.add(new Contact("Kirk", "Olá", "07:12", null));
         contactList.add(new Contact("Adam", "Olá", "07:12", null));
         contactList.add(new Contact("Tiago", "Olá", "07:12", null));
-        contactList.add(new Contact("Gabriel", "Olá", "07:12", null));
+        contactList.add(new Contact("Gabriel Silva", "Olá", "07:12", null));
+        contactList.add(new Contact("José", "Tudo bem?", "09:50", null));
 
 
         ContactsAdapter adapter = new ContactsAdapter(contactList, this);
